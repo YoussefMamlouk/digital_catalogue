@@ -1,0 +1,57 @@
+\documentclass[11pt,titlepage]{report}
+\usepackage{Preamble}
+\begin{document}
+
+
+\begin{titlepage}
+    \newgeometry{margin=3cm}
+	\centering
+    \includegraphics[width=0.5\linewidth]{epfl.png}\\[0.25cm] 	% University Logo
+    \textsc{\LARGE École Polytechnique Fédérale de Lausanne}\\ \vspace{\fill}
+    \textbf{\textsc{\fontsize{25}{25}\selectfont A digital catalogue of Jerusalem’s Ayyubid and Mamluk architectures}}\\ \vspace{\fill}		
+	\textsc{\LARGE EPFL DHLAB}\\[0.4cm]
+	\rule{\linewidth}{0.2 mm} \\[0.5 cm]
+	\textbf{Author:} Youssef Mamlouk \\ [0.5 cm]
+ \textbf{Supervisor:} Beatrice Vaienti \\
+\textbf{Professor:} Pr. Frederic Kaplan \\[1.5cm] \today
+\end{titlepage}
+\restoregeometry
+
+\thispagestyle{numberonly}
+\begin{summary}
+\section*{Abstract}
+
+This report presents a comprehensive approach to creating a digital catalog of Jerusalem's Ayyubid and Mamluk architectures. \\
+
+The project utilizes computer vision, machine learning, natural language processing, and database management techniques to convert the book \textit{Mamluk Jerusalem: An Architectural Study} into a digital database. The database is then visualized through an interactive leaflet map, enabling users to explore the buildings and their historical information. \\
+
+The project showcases the successful extraction of architectural elements, accurate OCR results, and efficient database management. \\
+The digital catalog serves as a valuable resource for researchers, enthusiasts, and preservationists interested in studying and appreciating the architectural heritage of Jerusalem.
+\end{summary}
+
+\clearpage
+
+\tableofcontents
+
+
+\chapter{Introduction}
+\subfile{1-Introduction}
+
+\chapter{Methods}
+\subfile{2-Methods}
+
+\chapter{Results}
+\subfile{3-Results}
+
+\chapter{Discussion}
+\subfile{4-Discussion}
+
+\chapter{Conclusion}
+\subfile{5-Conclusion}
+
+\clearpage
+\pagestyle{numberonly}
+
+\printbibliography
+
+\end{document}

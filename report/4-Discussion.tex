@@ -1,0 +1,30 @@
+\section{Discussion}
+
+The results of the project, including layout recognition, OCR, database management, and leaflet map visualization, provide valuable insights into the digital cataloging of Jerusalem's Ayyubid and Mamluk architectures.
+\subsection{Results analysis}
+\subsubsection{Layout Recognition}
+
+The layout recognition process using the Layout Parser library proved to be effective in identifying and extracting various components of the book's layout. By training an existing model on annotated images from the book, we achieved accurate identification of the articles' layouts. However, it should be noted that certain limitations were encountered, particularly in cases where the layout structure was complex or varied. This suggests that further improvements and refinements could be made to enhance the accuracy and robustness of the layout recognition process.
+
+\subsubsection{OCR Results}
+
+The OCR results demonstrated satisfactory quality, supported by visual inspection and the contextual understanding of the book's layout and scanning quality. Although word-level or character-level accuracy metrics were not evaluated, the combination of good layout parsing and high-quality scanning contributed to reliable OCR results. This highlights the importance of considering the overall context and characteristics of the document when assessing OCR performance.
+
+\subsubsection{Database Management}
+
+The database management phase involved the design and implementation of the database schema, data cleaning, and insertion into a MySQL database. The evaluation of database insertion revealed high precision in the main columns, indicating successful data transfer from the extracted sources. However, it should be noted that missing values in certain columns could be attributed to earlier stages such as layout recognition and OCR. This highlights the impact of preceding processes on subsequent stages of the project.
+
+\subsubsection{Leaflet Map}
+
+The leaflet map visualization provided an interactive and informative platform for exploring Jerusalem's Mamluk buildings. The inclusion of interactive features enhanced the usability and user experience. The building marker popups offered comprehensive information about each building, including general details, historical dates, and architectural and historical aspects. The inscription popup further enriched the user experience by providing access to inscriptions specific to each building, contributing to a deeper understanding of their cultural significance.
+
+\subsection{Limitations and Future Directions}
+
+Despite the overall success of the project, certain limitations should be acknowledged. The layout recognition process could benefit from further refinement to improve accuracy, particularly in complex layout structures, especially for images. Additionally, while the OCR results were satisfactory, future evaluation using word-level or character-level accuracy metrics could provide a more comprehensive assessment.
+
+Furthermore, future work can focus on enhancing the processing and inclusion of images within the digital catalog. This involves developing techniques for image analysis, integrating image data into the database schema, and incorporating image visualization within the leaflet map. This expansion will provide a more comprehensive and immersive experience for exploring Jerusalem's Mamluk architectures.
+
+The developed process for creating a digital catalog of Jerusalem's Ayyubid and Mamluk architectures is highly scalable and can be easily applied to other books with similar structures. By modifying the input PDF file, the layout recognition, OCR, and database management steps can be adapted to capture the architectural information from a different book, such as the Ayubid architecture book. The flexibility of the process allows for the expansion of the digital catalog to include additional architectural works
+
+Lastly, while the leaflet map provided an interactive and informative visualization, future enhancements could include additional features such as advanced filtering options, user contributions, and integration of buildings' images and schemas to enrich the exploration and understanding of Jerusalem's architectural heritage.
+
